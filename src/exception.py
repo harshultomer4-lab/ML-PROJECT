@@ -1,6 +1,6 @@
 import sys 
 import logging
-
+from src.logger import logging
 def error_message_detail(error,error_detail:sys):
    ## exc_tb hai error traceback iska matlab hai error kya aaya hai warna agar mai teeno column khaali nhi choddta toh pehle _ bata rha hai error ka type,
    ## 2nd _ bata rha hai error message aur 3rd bata rha hai error traceback matalb error code me kha pr hai
